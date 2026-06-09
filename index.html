@@ -370,7 +370,7 @@ footer{text-align:center;padding:44px 22px 54px;font-family:'Cinzel',serif;font-
     <div class="section-head"><span class="num">⚔</span><div><span class="kicker">Composição Co-op</span><h2>A party do mal</h2></div></div>
     <div class="panel">
       <div class="party">
-        <div class="member"><div class="role">Player 1</div><h3>Dark Urge</h3><p>Oathbreaker Paladin / Wild Magic Sorcerer. Frontline, smite, auras, mortos-vivos.</p></div>
+        <div class="member"><div class="role">Player 1</div><h3>Dark Urge</h3><p>Oathbreaker Paladin 12 puro. Frontline DEX/CHA, smite, auras, Animate Dead, Aura of Hate.</p></div>
         <div class="member"><div class="role">Player 2</div><h3>O Sorlock</h3><p>Fiend Warlock / Wild Magic Sorcerer. CC à distância, push e explosão mágica.</p></div>
         <div class="member"><div class="role">Companion</div><h3>Minthara</h3><p>Frontline, segunda Aura de Proteção de Paladin no grupo.</p></div>
         <div class="member"><div class="role">Companion</div><h3>Astarion</h3><p>DPS furtivo, flanking, dano de abertura.</p></div>
@@ -388,19 +388,20 @@ footer{text-align:center;padding:44px 22px 54px;font-family:'Cinzel',serif;font-
   <div class="view" id="view-builds">
     <div class="section-head"><span class="num">✶</span><div><span class="kicker">Progressão Nível a Nível</span><h2>As builds dos players</h2></div></div>
     <div class="subtabs">
-      <button class="subtab-btn active" data-build="pal"><span class="st-role">Player 1 · Dark Urge</span>Oathbreaker Paladin / Wild Magic Sorcerer</button>
+      <button class="subtab-btn active" data-build="pal"><span class="st-role">Player 1 · Dark Urge</span>Oathbreaker Paladin 12 — Pure Class</button>
       <button class="subtab-btn" data-build="lock"><span class="st-role">Player 2 · Co-op</span>Fiend Warlock / Wild Magic Sorcerer</button>
     </div>
 
     <div class="build active" id="build-pal">
       <div class="creation">
         <h4>Criação do Personagem</h4>
-        <div class="cr-row"><b>Raça</b><span>Zariel Tiefling — +2 CHA, +1 STR, smites raciais (Searing, Branding) e Darkness</span></div>
+        <div class="cr-row"><b>Raça</b><span>Wood Half-Elf (recomendado) — Fleet of Foot +1.5m velocidade, Darkvision, Fey Ancestry. Alternativa: Zariel Tiefling ou Half-Orc.</span></div>
         <div class="cr-row"><b>Background</b><span>Soldier (Athletics + Intimidation)</span></div>
-        <div class="cr-row"><b>Classe inicial</b><span>Paladin (trava armadura pesada desde o nível 1)</span></div>
+        <div class="cr-row"><b>Subclasse inicial</b><span>Oath of the Ancients — a mais fácil de quebrar intencionalmente</span></div>
+        <div class="cr-row"><b>Nota</b><span>STR dumpado — o Elixir of Hill Giant Strength (STR 27) cobre isso. Use finesse weapons que escalam com DEX.</span></div>
         <div class="stats">
-          <div class="stat"><div class="s-name">STR</div><div class="s-val">17</div></div>
-          <div class="stat"><div class="s-name">DEX</div><div class="s-val">10</div></div>
+          <div class="stat"><div class="s-name">STR</div><div class="s-val">8</div></div>
+          <div class="stat key"><div class="s-name">DEX</div><div class="s-val">16</div></div>
           <div class="stat"><div class="s-name">CON</div><div class="s-val">14</div></div>
           <div class="stat"><div class="s-name">INT</div><div class="s-val">8</div></div>
           <div class="stat"><div class="s-name">WIS</div><div class="s-val">10</div></div>
@@ -410,10 +411,13 @@ footer{text-align:center;padding:44px 22px 54px;font-family:'Cinzel',serif;font-
       <div class="levels" id="levels-pal"></div>
       <h3 class="gear-title">Gear de Destaque</h3>
       <ul class="gear">
-        <li><span class="act">Ato 1</span> &nbsp;<b>Everburn Blade</b> — espada flamejante, ótima early game.</li>
-        <li><span class="act">Ato 3</span> &nbsp;<b>Helldusk Armor</b> — melhor armadura pesada do jogo.</li>
-        <li><span class="act">Ato 2/3</span> &nbsp;<b>Amulet of Greater Health</b> — CON 23, libera o stat para CHA/STR.</li>
-        <li><span class="act">Ato 3</span> &nbsp;<b>Callous Glow Ring</b> — dano radiante extra em cada Smite contra alvos iluminados.</li>
+        <li><span class="act">Ato 1</span> &nbsp;<b>Phalar Aluve</b> — longsword finesse, escala com DEX. Usa a propriedade Shriek para −1d4 em saves e attack rolls inimigos numa área.</li>
+        <li><span class="act">Ato 1</span> &nbsp;<b>The Whispering Promise</b> (anel) + <b>Healing Word</b> — aplica Bless ao grupo quando cura, cobrindo a penalidade do Great Weapon Master.</li>
+        <li><span class="act">Ato 1</span> &nbsp;<b>Broodmother's Revenge</b> (luvas) — cada vez que um aliado te cura, você ganha +1d6 de veneno no próximo ataque.</li>
+        <li><span class="act">Ato 2</span> &nbsp;<b>Adamantine Splint Armour</b> — imune a crits, reduz dano recebido. Melhor armadura pesada do mid-game.</li>
+        <li><span class="act">Ato 3</span> &nbsp;<b>Bhaalist Armour</b> — Aura of Murder: inimigos próximos ficam vulneráveis a dano de perfuração. Com uma arma piercing, dano dobrado.</li>
+        <li><span class="act">Ato 3</span> &nbsp;<b>Helldusk Armor</b> — alternativa ao Bhaalist se quiser mais survivability.</li>
+        <li><span class="act">Consumível</span> &nbsp;<b>Elixir of Hill Giant Strength</b> — STR 27 pelo combate inteiro. Use sempre antes de qualquer confronto importante do Ato 2 em diante.</li>
       </ul>
     </div>
 
@@ -445,20 +449,20 @@ footer{text-align:center;padding:44px 22px 54px;font-family:'Cinzel',serif;font-
     <h3 class="gear-title" style="margin-top:34px">Comparativo de Progressão</h3>
     <div class="table-wrap">
       <table>
-        <thead><tr><th>Lvl</th><th>Paladin / Sorc</th><th>Warlock / Sorc</th></tr></thead>
+        <thead><tr><th>Lvl</th><th>Oathbreaker Paladin 12</th><th>Warlock / Sorc</th></tr></thead>
         <tbody>
-          <tr><td>1</td><td>Oathbreaker base, Fighting Style</td><td><b>Eldritch Blast</b>, The Fiend</td></tr>
-          <tr><td>2</td><td>Divine Smite</td><td>Agonizing + Repelling Blast</td></tr>
-          <tr><td>3</td><td>Animate Dead, Channel Divinity</td><td>Pact of Tome, Hunger of Hadar</td></tr>
-          <tr><td>4</td><td><b>Feat: CHA 19</b></td><td><b>Feat: CHA 19</b>, Devil's Sight</td></tr>
+          <tr><td>1</td><td>Oath of Ancients, Skills</td><td><b>Eldritch Blast</b>, The Fiend</td></tr>
+          <tr><td>2</td><td>Divine Smite, <b>Defence Style</b></td><td>Agonizing + Repelling Blast</td></tr>
+          <tr><td>3</td><td>Oathbreaker, Animate Dead</td><td>Pact of Tome, Hunger of Hadar</td></tr>
+          <tr><td>4</td><td><b>Feat: Great Weapon Master</b></td><td><b>Feat: CHA 19</b>, Devil's Sight</td></tr>
           <tr><td>5</td><td>Extra Attack</td><td>Slots nível 3 (short rest)</td></tr>
           <tr><td>6</td><td><b>Aura of Protection</b></td><td>Sorcerer entra, Quickened</td></tr>
-          <tr><td>7</td><td>Sorcerer entra, Flexible Casting</td><td>Flexible Casting</td></tr>
-          <tr><td>8</td><td>Loop de slots ativo</td><td>Metamagic extra</td></tr>
-          <tr><td>9</td><td>Fireball + loop</td><td>Haste</td></tr>
-          <tr><td>10</td><td><b>Feat: CHA 20</b></td><td><b>Feat: CHA 20</b></td></tr>
-          <tr><td>11</td><td>Cone of Cold / Wall of Fire</td><td>Dominate Person / Cone of Cold</td></tr>
-          <tr><td>12</td><td>Bend Luck (Sorc 6)</td><td><b>Finger of Death</b> + zumbi</td></tr>
+          <tr><td>7</td><td><b>Aura of Hate</b></td><td>Flexible Casting</td></tr>
+          <tr><td>8</td><td><b>Feat: ASI CHA 19</b></td><td>Metamagic extra</td></tr>
+          <tr><td>9</td><td>Slots nível 3, mais Smite</td><td>Haste</td></tr>
+          <tr><td>10</td><td>Aura of Courage</td><td><b>Feat: CHA 20</b></td></tr>
+          <tr><td>11</td><td><b>Improved Divine Smite</b></td><td>Dominate Person / Cone of Cold</td></tr>
+          <tr><td>12</td><td><b>Feat: Savage Attacker</b></td><td><b>Finger of Death</b> + zumbi</td></tr>
         </tbody>
       </table>
     </div>
@@ -472,18 +476,18 @@ footer{text-align:center;padding:44px 22px 54px;font-family:'Cinzel',serif;font-
 <script>
 /* ================= DATA: BUILDS ================= */
 const palLevels=[
- {n:"1",cls:"Paladin",star:false,items:["<b>Fighting Style:</b> Great Weapon Fighting (relança 1s e 2s no dano de armas de duas mãos).","<b>Spells preparadas:</b> Divine Favor, Bless.","<b>Skills:</b> Persuasion, Religion (+ Athletics/Intimidation do background)."],tip:{kind:"blood",txt:"Como quebrar o Juramento: ataque o Grove com Minthara (ou mate inocentes). O Oathbreaker Ghost aparece no camp logo depois e oferece a reconversão — aceite."}},
- {n:"2",cls:"Paladin",star:false,items:["<b>Divine Smite</b> desbloqueado — o núcleo da build.","<b>Lay on Hands</b> (pool de cura, uso secundário).","<b>+1 Spell:</b> Wrathful Smite (impõe medo além do dano)."],tip:{kind:"",txt:"Divine Smite é manual: confirme que o ataque acertou ANTES de gastar o slot. Nunca pré-ative."}},
- {n:"3",cls:"Paladin · Oathbreaker",star:false,items:["<b>Channel Divinity:</b> Control Undead + Animate Dead.","<b>Spells de Oathbreaker:</b> Hellish Rebuke, Inflict Wounds (automáticas).","<b>+1 Spell:</b> Protection from Evil and Good."],tip:{kind:"",txt:"Animate Dead cria um aliado que dura até o próximo long rest. Reanime sempre antes de dormir para manter o morto-vivo ativo."}},
- {n:"4",cls:"Paladin",star:true,items:["<b>Feat — ASI:</b> CHA 17 → 19.","<b>+1 Spell:</b> Bane (−1d4 em ataques e saves de até 3 inimigos)."],tip:{kind:"",txt:"ASI vence Great Weapon Master aqui: CHA alto amplifica a Aura of Protection do grupo inteiro. +4 em todos os saves vale mais que dano condicional."}},
- {n:"5",cls:"Paladin",star:false,items:["<b>Extra Attack</b> — dois ataques por turno, cada um smitável.","<b>Slots nível 2:</b> Smite agora é 3d8.","<b>+1 Spell:</b> Misty Step (teleporte de Bonus Action)."],tip:{kind:"blood",txt:"Nova matemática: 2 ataques × (1d8 arma + 3d8 smite + mods) num único turno. Devastador."}},
- {n:"6",cls:"Paladin",star:true,items:["<b>Aura of Protection</b> — a razão dos 6 níveis de Paladin. +CHA em TODO saving throw de aliados num raio de 3m. Passivo e afeta o co-op player.","<b>+1 Spell:</b> Animate Dead (slot nível 3 → mais poder de smite também)."],tip:{kind:"",txt:"A partir daqui você troca para Sorcerer. Os slots novos são separados, mas o Flexible Casting os une via Sorcery Points."}},
- {n:"7",cls:"Sorcerer · Wild Magic",star:false,items:["<b>Subclasse:</b> Wild Magic (Tides of Chaos: vantagem 1×/long rest).","<b>Spells:</b> Shield (+5 AC reaction) + Magic Missile.","<b>Cantrips:</b> Fire Bolt, Mage Hand, Minor Illusion, Prestidigitation.","<b>Metamagic:</b> Quickened Spell + Subtle Spell."],tip:{kind:"",txt:"Em BG3 os Wild Magic Surges são bem mais brandos que no tabletop — não tema o caos."}},
- {n:"8",cls:"Sorcerer",star:false,items:["<b>Flexible Casting</b> — converte Sorcery Points ↔ spell slots. Coração da build.","<b>+Spell:</b> Scorching Ray (dano ranged quando não quer entrar em melee)."],tip:{kind:"",txt:"Resultado: mais slots disponíveis para Smite por long rest do que um Paladin puro teria."}},
- {n:"9",cls:"Sorcerer",star:false,items:["<b>Metamagic:</b> Heightened Spell (alvo em desvantagem no save).","<b>+Spell:</b> Fireball (Quickened Fireball + 2 ataques melee no mesmo turno)."],tip:{kind:"",txt:"Heightened + Bane juntos tornam quase impossível o inimigo passar nos saves contra você."}},
- {n:"10",cls:"Sorcerer",star:true,items:["<b>Feat — ASI:</b> CHA 19 → 20. Aura of Protection vira <em>+5</em> em todos os saves do grupo.","<b>+Spell:</b> Haste (use em si ou em Minthara antes de uma boss fight).","<b>Cantrip:</b> Booming Blade (pune inimigo que se move)."],tip:{kind:"blood",txt:"Com CHA 20, o co-op Sorlock perto de você passa a ter saving throws absurdos."}},
- {n:"11",cls:"Sorcerer",star:false,items:["<b>Slots nível 3 (Sorcerer):</b> conversão mais eficiente.","<b>+Spell:</b> Cone of Cold ou Wall of Fire (AoE para grupos densos)."],tip:null},
- {n:"12",cls:"Sorcerer",star:false,items:["<b>Wild Magic 6 — Bend Luck:</b> gasta 2 Sorcery Points como Reaction para ±1d4 em qualquer roll de aliado ou inimigo.","<b>+Spell:</b> Fly ou Slow (debuff devastador em grupo)."],tip:{kind:"",txt:"Controle cirúrgico: empurre o crítico do aliado ou afunde o save do boss."}}
+ {n:"1",cls:"Paladin · Oath of Ancients",star:false,items:["<b>Subclasse inicial:</b> Oath of the Ancients — a mais fácil de quebrar intencionalmente no jogo.","<b>Fighting Style:</b> <em>aguarda o nível 2</em>.","<b>Spells preparadas:</b> Bless, Wrathful Smite.","<b>Skills:</b> Intimidation, Persuasion, Athletics."],tip:{kind:"blood",txt:"Como quebrar o Juramento: traia o Grove dos Tieflings para Minthara, ou mate NPCs inocentes. O Oathbreaker Ghost aparece no camp e oferece a reconversão por 50g — na primeira vez. Depois é gratuito."}},
+ {n:"2",cls:"Paladin",star:false,items:["<b>Divine Smite</b> desbloqueado.","<b>Fighting Style: Defence</b> — +1 AC passivo. Simples, mas consistente durante toda a run.","<b>Lay on Hands</b> — use fora de combate para curar doenças, não como heal em batalha."],tip:{kind:"",txt:"Divine Smite é manual: o slot só é gasto DEPOIS de confirmar que o ataque acertou. Nunca pré-ative."}},
+ {n:"3",cls:"Paladin · Oathbreaker",star:false,items:["<b>Torna-se Oathbreaker</b> após quebrar o juramento no Ato 1.","<b>Channel Divinity:</b> Control Undead (salvo WIS) + Animate Dead.","<b>Spells de Oathbreaker (automáticas):</b> Hellish Rebuke, Darkness, Animate Dead, Bestow Curse."],tip:{kind:"",txt:"Animate Dead cria um esqueleto ou zumbi que dura até o próximo long rest. Reanime sempre antes de dormir — é um aliado gratuito de combate."}},
+ {n:"4",cls:"Paladin",star:true,items:["<b>Feat: Great Weapon Master — All In</b> — quando ataca com uma arma de duas mãos, pode aceitar −5 no attack roll para ganhar +10 de dano. A penalidade desaparece com Bless ou vantagem.","<b>+1 Spell:</b> Bane (−1d4 em ataques e saves de até 3 inimigos — compensa o −5 do GWM)."],tip:{kind:"blood",txt:"GWM é o motor de dano da build. Com Bless ativo + Phalar Aluve Shriek, a penalidade de −5 some e você fica com +10 de dano puro em cada hit."}},
+ {n:"5",cls:"Paladin",star:false,items:["<b>Extra Attack</b> — dois ataques por turno, cada um pode ser smitado.","<b>Spell Slots nível 2:</b> Divine Smite agora escala para 3d8.","<b>+1 Spell:</b> Misty Step (teleporte de Bonus Action — mobilidade essencial)."],tip:{kind:"blood",txt:"Nível pivô de dano: 2 ataques × (arma + GWM +10 + 3d8 smite + DEX mod) por turno. Combinado com Bless, devastador."}},
+ {n:"6",cls:"Paladin",star:true,items:["<b>Aura of Protection</b> — +CHA modifier em TODOS os saving throws de aliados num raio de 3m. Passivo, permanente.","<b>+1 Spell:</b> Hold Person (paralisa humanoide — todos os ataques contra ele viram critical hits enquanto paralisado)."],tip:{kind:"",txt:"Com CHA 17 (+3), todos os aliados próximos têm +3 em todos os saves. Com CHA 20 (+5) mais adiante, isso é transformador."}},
+ {n:"7",cls:"Paladin · Oathbreaker",star:true,items:["<b>Aura of Hate</b> — mortos-vivos e demônios PRÓXIMOS ganham +CHA modifier de dano bônus em cada ataque. Com CHA 17, são +3 por hit.","Os esqueletos do Animate Dead se beneficiam diretamente desta aura."],tip:{kind:"blood",txt:"Aura of Hate + Animate Dead = seus mortos-vivos fazem dano significativo só de existirem ao seu lado. É a sinergia central do Oathbreaker."}},
+ {n:"8",cls:"Paladin",star:true,items:["<b>Feat — ASI:</b> +2 CHA → CHA 17 → 19.","Aura of Protection passa a dar +4 em saves. Aura of Hate passa a dar +4 de dano por hit nos mortos-vivos.","<b>+1 Spell:</b> Haste (use antes de boss fights — AC extra, ação extra de ataque, velocidade)."],tip:{kind:"",txt:"Prioridade máxima: CHA par. +2 CHA afeta Aura of Protection, Aura of Hate, spell save DC e attack rolls de smite. Cada ponto vale muito."}},
+ {n:"9",cls:"Paladin",star:false,items:["<b>Spell Slots nível 3</b> — Smite de nível 3 agora é 4d8 por hit.","<b>+1 Spell:</b> Remove Curse / Counterspell (situacional em boss fights)."],tip:null},
+ {n:"10",cls:"Paladin",star:false,items:["<b>Aura of Courage</b> — você e aliados próximos ficam imunes a Frightened. Passivo.","<b>+1 Spell:</b> Banishment (remove um inimigo do combate por concentração — útil em fights com múltiplos bosses)."],tip:{kind:"",txt:"Frightened é um dos debuffs mais comuns em boss fights de BG3. Imunidade passiva é muito relevante."}},
+ {n:"11",cls:"Paladin",star:true,items:["<b>Improved Divine Smite</b> — passivo permanente: +1d8 de dano radiante em TODOS os ataques melee, sem gastar slot. Empilha com Divine Smite manual.","<b>+1 Spell:</b> Destructive Wave (AoE de dano raio/radiante + knockdown — excelente contra grupos densos)."],tip:{kind:"blood",txt:"Improved Divine Smite é silenciosamente um dos maiores ganhos da build: dano extra gratuito em cada ataque, para sempre, sem decisão."}},
+ {n:"12",cls:"Paladin",star:true,items:["<b>Feat: Savage Attacker</b> — uma vez por turno, ao atacar com arma melee, relança todos os dados de dano da arma e usa o resultado mais alto. Empilha com Improved Divine Smite.","Com CHA 19 e todos os sistemas online, este é o pico da build."],tip:{kind:"",txt:"Savage Attacker + Improved Divine Smite + GWM +10 + DEX mod + Aura of Hate nos mortos-vivos = dano consistente altíssimo por turno a partir daqui."}}
 ];
 const lockLevels=[
  {n:"1",cls:"Warlock · The Fiend",star:false,items:["<b>The Fiend</b> — Dark One's Blessing: temp HP a cada kill (CHA mod + nível Warlock).","<b>Cantrips:</b> <b>Eldritch Blast</b> (arma principal pro jogo todo) + Mage Hand.","<b>Spells:</b> Hex (+1d6 necrotic na target) + Armor of Agathys.","<b>Skills:</b> Arcana, Deception, Intimidation, Persuasion."],tip:{kind:"blood",txt:"No nível máximo o EB dispara 3 raios separados, cada um carregando efeitos de invocação diferentes."}},
